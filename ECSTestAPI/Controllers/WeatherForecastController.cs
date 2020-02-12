@@ -42,5 +42,12 @@ namespace ECSTestAPI.Controllers
         {
             return "What about it?";
         }
+
+        [HttpGet]
+        [Route("Test")]
+        public string GetTestInfo()
+        {
+            return "Just a test";
+        }
     }
 }
