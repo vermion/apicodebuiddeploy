@@ -1,0 +1,23 @@
+
+{
+    "region" : "eu-west-1",
+    "profile" : "Main",
+    "configuration" : "Debug",
+    "tag"           : "ecstest:latest",
+    "docker-build-working-dir" : "",
+    "vstoolkit-deployment-mode" : "DeployService",
+    "cluster"                   : "PlintDashboardTest-ECSCluster-4T43LQHAGCL0",
+    "launch-type"               : "EC2",
+    "task-definition-name"      : "ecs-test",
+    "task-definition-network-mode" : "bridge",
+    "task-definition-task-role"    : "arn:aws:iam::935720408010:role/ecsTaskExecutionRole",
+    "container-name"               : "ecs-tets",
+    "container-memory-soft-limit"  : 128,
+    "container-port-mapping"       : "27300:27300",
+    "container-environment-variables" : "\"ASPNETCORE_ENVIRONMENT\"=\"Development\"",
+    "skip-image-push"                 : false,
+    "cluster-service"                 : "ecs-test",
+    "desired-count"                   : 2,
+    "deployment-minimum-healthy-percent" : 0,
+    "deployment-maximum-percent"         : 100
+}
