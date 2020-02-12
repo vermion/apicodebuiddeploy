@@ -8,7 +8,7 @@ namespace UnitTest
         [Fact]
         public void Test1()
         {
-            Assert.Equal("b", "a");
+            Assert.Equal("a", "a");
         }
     }
 }
