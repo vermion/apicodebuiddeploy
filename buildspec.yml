@@ -3,7 +3,6 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      echo Running unit tests...
       dotnet: 3.0
   pre_build:
     commands:
