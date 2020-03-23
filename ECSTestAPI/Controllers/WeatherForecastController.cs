@@ -47,7 +47,7 @@ namespace ECSTestAPI.Controllers
         [Route("Test")]
         public string GetTestInfo()
         {
-            return "Just a test";
+            return "Just another test";
         }
     }
 }
